@@ -50,9 +50,9 @@ buildCKEditorBBCode {
 buildCKEditorPlugins {
 	File ckEditorDestinationDir = new File(editorDestinationDir, "ckeditor")
 
-	dependsOn buildCKEditor, packageRunBuild
+	dependsOn buildCKEditor
 
-	from new File("classes/META-INF/resources/_diffs")
+	from new File(editorSrcDir, "_diffs")
 	includeEmptyDirs = false
 	into ckEditorDestinationDir
 }

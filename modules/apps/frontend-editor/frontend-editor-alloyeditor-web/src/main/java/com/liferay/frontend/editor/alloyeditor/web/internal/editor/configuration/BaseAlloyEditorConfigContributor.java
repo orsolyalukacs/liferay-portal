@@ -72,9 +72,8 @@ public abstract class BaseAlloyEditorConfigContributor
 			StringUtil.replace(getLanguageId(themeDisplay), "iw_", "he_")
 		).put(
 			"removePlugins",
-			"contextmenu,elementspath,floatingspace,image,link,liststyle," +
-				"resize,table,tabletools,toolbar"
-		);
+			"contextmenu,elementspath,floatingspace,image,link,liststyle,resize," +
+				"tabletools,toolbar");
 
 		String namespace = GetterUtil.getString(
 			inputEditorTaglibAttributes.get(

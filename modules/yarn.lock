@@ -11434,6 +11434,11 @@ liferay-ckeditor@4.11.4-liferay.2:
   resolved "https://registry.yarnpkg.com/liferay-ckeditor/-/liferay-ckeditor-4.11.4-liferay.2.tgz#e76302c2ba1775121f47dd6477c9bcdfa8cb0657"
   integrity sha512-M1XuKtSkuyh4rVXFS7usZmqE+sFe/tASLGpOSPa04WWTJfTDLl92Chj8qRvRLKoWeM85umgO51yhhSVd4IZgGQ==
 
+liferay-ckeditor@4.11.3-liferay.1:
+  version "4.11.3-liferay.1"
+  resolved "https://registry.yarnpkg.com/liferay-ckeditor/-/liferay-ckeditor-4.11.3-liferay.1.tgz#28c0fdea96bd00a27e29b9257f9dd799329b1023"
+  integrity sha512-OB0P+hgDBvfPWYV50T+vNxFEwk4DP1P2U6UgxlgJxphogtETe0sRyLC/kpCQzGYlqVlIq7kTMVr7zlBn3lv5Cw==
+
 liferay-css-parse@~1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/liferay-css-parse/-/liferay-css-parse-1.7.1.tgz#c0750cc0f0645d2190eeefee845b6fcb154f3e45"
