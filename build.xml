@@ -11,6 +11,8 @@
 						dir="${app.server.bin.dir}"
 						includes="*.log*"
 					/>
+					
+					
 					<fileset
 						dir="${app.server.classes.portal.dir}"
 						includes="portal-*.properties,system-*.properties"
