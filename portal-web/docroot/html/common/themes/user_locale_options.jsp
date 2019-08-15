@@ -20,7 +20,7 @@
 String currentURL = PortalUtil.getCurrentURL(request);
 %>
 
-<c:if test="<%= !locale.equals(user.getLocale()) %>">
+<c:if test="<%= !locale.equals(user.getLocale()) && LanguageUtil.isAvailableLocale(themeDisplay.getSiteGroupId(), user.getLocale()) %>">
 
 	<%
 	Locale userLocale = user.getLocale();
