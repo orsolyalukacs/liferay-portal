@@ -1793,7 +1793,8 @@ AUI.add(
 									className:
 										selectedWebContent.assetclassname,
 									classPK: selectedWebContent.assetclasspk,
-									title: selectedWebContent.assettitle || ''
+									title: selectedWebContent.assettitle || '',
+									assetTitle: selectedWebContent.assettitlemap
 								});
 
 								instance._hideMessage();

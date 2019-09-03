@@ -19,7 +19,7 @@
 	/>
 
 	<#if validator.isNotNull(journalArticle)>
-		<#assign selectedAssetTitle = journalArticle.getTitle(requestedLocale) />
+		<#assign selectedAssetTitle = journalArticle.getTitleMap() />
 	</#if>
 </#if>
 
