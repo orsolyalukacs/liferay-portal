@@ -50,6 +50,7 @@
 				data.put("assetclassnameid", assetEntry.getClassNameId());
 				data.put("assetclasspk", assetEntry.getClassPK());
 				data.put("assettitle", assetRenderer.getTitle(locale));
+				data.put("assettitlemap", JSONFactoryUtil.looseSerialize(LocalizationUtil.getLocalizationMap(assetEntry.getTitle())));
 				data.put("assettype", assetRendererFactory.getTypeName(locale, assetBrowserDisplayContext.getSubtypeSelectionId()));
 				data.put("entityid", assetEntry.getEntryId());
 				data.put("groupdescriptivename", group.getDescriptiveName(locale));
