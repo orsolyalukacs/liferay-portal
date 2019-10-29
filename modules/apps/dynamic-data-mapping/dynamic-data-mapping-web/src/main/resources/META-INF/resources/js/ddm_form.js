@@ -4070,6 +4070,18 @@ AUI.add(
 					var fields = parentField.get('fields');
 
 					fields.splice(newIndex, 0, fields.splice(oldIndex, 1)[0]);
+
+					if(CKEDITOR) {
+						var editor = fields[newIndex].getEditor();
+
+						var currentText = editor.getText();
+	
+						editor.dispose();
+	
+						editor.create();
+	
+						editor.setHTML(currentText);
+					}
 				},
 
 				populateBlankLocalizationMap(
